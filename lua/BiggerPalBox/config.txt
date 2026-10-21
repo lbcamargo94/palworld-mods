@@ -1,0 +1,13 @@
+; ==============================================================================
+; Bigger Pal Box - config.txt - v0.1.0
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Número de páginas da caixa de Pals (30 Pals por página).
+; Padrão do jogo: 32 (960 Pals). 64 = o dobro (1920 Pals).
+; Valores menores que o padrão do jogo são ignorados.
+PalBoxPages = 64

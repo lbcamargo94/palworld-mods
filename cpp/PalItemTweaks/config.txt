@@ -1,0 +1,51 @@
+; ==============================================================================
+; Pal Item Tweaks - config.txt - v0.4.0
+; ==============================================================================
+; Linhas começando com ; ou # são comentários. Vale ao abrir o jogo.
+
+; Ativar ou desativar o mod.
+Enabled = true
+
+; Tamanho máximo das pilhas dos itens que já empilham (2 a 999999).
+; 0 = não mexer nas pilhas.
+StackSize = 999999
+
+; Implantes "Consumable" da mesa de cirurgia viram permanentes (não são gastos).
+PermanentImplants = true
+
+; Tempo para reviver um Pal na caixa de Pals, em % do original (1 a 100).
+; 10 = 10 minutos -> 1 minuto. 100 = não mexer.
+ReviveTimePercent = 10
+
+; Pals consumidos na máquina de condensação por estrela, em % do original
+; (1 a 100). 50 = metade (original 4/8/12/24 -> 2/4/6/12). 100 = não mexer.
+RankUpPercent = 50
+
+; Itens com peso zero (IDs separados por vírgula). Money = moeda de ouro,
+; DogCoin = moeda de cachorro.
+WeightlessItems = Money, DogCoin
+
+; Itens que viram 'importantes' pelo próprio mod (troca TypeA e TypeB).
+; Vazio: as moedas são feitas pelo mod PalSchema EssentialCoins.
+EssentialItems =
+
+; Coleta automática: itens que caem perto de você (monstros, árvores, minérios)
+; vão direto para o inventário.
+AutoLoot = true
+
+; Distância máxima da coleta automática, em cm (1500 = 15 m, 3000 = 30 m).
+AutoLootRange = 3000
+
+; Não coletar dentro da área das bases (os Pals continuam transportando).
+AutoLootOutsideBaseOnly = true
+
+; Itens importantes que entram no inventário comum (ex.: tirados de um baú)
+; vão sozinhos para a aba de itens importantes.
+SortEssentials = true
+
+; Itens que devem sair da aba de itens importantes e voltar ao inventário
+; comum (ex.: Money = moeda de ouro, que deixou de ser item importante).
+ReturnToCommonItems = Money
+
+; Logs detalhados no UE4SS.log (apenas para debug).
+VerboseLogging = false

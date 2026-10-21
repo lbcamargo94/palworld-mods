@@ -1,0 +1,8 @@
+{
+  "Name": "Glider Speed",
+  "Author": "lbcamargo94",
+  "Version": "0.2.1",
+  "Description": "Aumenta a velocidade de todos os planadores (0% a 200%; padrão +50%).",
+  "GameName": "Palworld",
+  "Id": "GliderSpeed"
+}

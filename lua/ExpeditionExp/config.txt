@@ -1,0 +1,39 @@
+; ==============================================================================
+; Expedition Exp - config.txt - v0.4.0
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Tempo das expedições, em % do tempo normal do jogo.
+; 100 = tempo normal; 20 = 80% menor; 200 = o dobro. Faixa: 0 a 200.
+; Exemplo com 20: uma expedição de 60 min passa a durar 12 min.
+; Vale só para expedições iniciadas DEPOIS que o jogo carregou com o mod.
+ExpeditionTimePercent = 20
+
+; Tempo fixo (em minutos) igual para TODAS as expedições, fáceis ou Hard.
+; 0 = desativado (vale ExpeditionTimePercent acima).
+; Maior que 0 = ignora ExpeditionTimePercent. Ex.: 10 = toda expedição dura 10 min.
+; Faixa: 0 a 720 (12 h). Aceita decimais (0.5 = 30 s).
+ExpeditionFixedMinutes = 0
+
+; XP para cada Pal que volta da expedição, em % do XP que falta do nível
+; atual para o próximo. 50 = meio nível por expedição; 100 = um nível inteiro.
+; 0 = desativado. Faixa: 0 a 100 (nunca sobe mais de 1 nível por expedição).
+; Pals no nível máximo não ganham XP.
+ExpPercentOfNextLevel = 50
+
+; Aumento na quantidade de itens das recompensas de expedição, em %.
+; 20 = 20% a mais (ex.: 5 a 10 Pal Spheres vira 6 a 12). Faixa: 10 a 100.
+; Vale para expedições que terminarem depois que o jogo carregou com o mod.
+RewardBoostPercent = 20
+
+; Intervalo (em ms) entre as verificações que aplicam o tempo à tabela.
+ScanIntervalMs = 30000
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

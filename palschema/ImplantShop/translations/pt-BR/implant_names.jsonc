@@ -1,0 +1,34 @@
+// Implant Shop - implantes "de Uso Único" do jogo renomeados: o Pal Item Tweaks
+// os torna permanentes, então o nome passa a ser "Implante: ...".
+{
+	"DT_ItemNameText": {
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_ATK": "Implante: Espada Sagrada de Dois Gumes",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_DEF": "Implante: Muralha de Músculos da Terra Santa",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_CraftSpeed": "Implante: Mão Demoníaca",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_FullStomach": "Implante: Viveiro da Árvore Divina",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_Sanity": "Implante: Sábio Ermitão",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_MoveSpeed": "Implante: Salto Dimensional",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_WorldTree_ATK_DEF": "Implante: Deus da Destruição",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_CraftSpeed_up3": "Implante: Artesão Transcendental",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Deffence_up3": "Implante: Corpo de Diamante",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Rare": "Implante: Da sorte",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Legend": "Implante: Lendário",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Witch": "Implante: Bruxa",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_EternalFlame": "Implante: Chama Eterna",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Invader": "Implante: Invasor",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_PAL_ALLAttack_up3": "Implante: Deus Inclemente",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_PAL_FullStomach_Down_3": "Implante: Jejuador Supremo",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_PAL_Sanity_Down_3": "Implante: Espírito Inabalável",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_MoveSpeed_up_3": "Implante: Desenfreado",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Stamina_Up_3": "Implante: Movimento Perpétuo",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Vampire": "Implante: Vampiro",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Nushi": "Implante: Senhor das Águas",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_SwimSpeed_up_3": "Implante: Rei dos Surfistas",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_Salvation": "Implante: Salvação",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_MutationPal_Babysitter": "Implante: Babá",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_MutationPal_Mutant": "Implante: Constituição Peculiar",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_MutationPal_Immortal": "Implante: Imortalidade",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_MutationPal_ExplosionResist": "Implante: Blindagem Pesada",
+		"ITEM_NAME_PalPassiveSkillChange_Consumable_RideJumpCount_Increase2": "Implante: Cruza-Céus"
+	}
+}

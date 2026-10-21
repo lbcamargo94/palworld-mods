@@ -1,0 +1,6 @@
+// Passive Remover - nome da característica em português (Brasil).
+{
+	"DT_SkillNameText": {
+		"PASSIVE_PR_NoPassive": "Remover característica"
+	}
+}

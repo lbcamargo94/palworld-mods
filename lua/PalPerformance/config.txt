@@ -1,0 +1,33 @@
+; ==============================================================================
+; Pal Performance - config.txt - v0.1.0
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; Para desativar uma cvar, comente a linha com ;. Para desativar o mod inteiro,
+; coloque Enabled = false. Nada aqui altera o Engine.ini.
+; ==============================================================================
+
+Enabled = true
+
+[CVars]
+; --- Limpeza de memória (coleta de lixo) -------------------------------------
+; Intervalo (segundos) entre limpezas de objetos descartados. Padrão no Palworld:
+; 30. Maior = menos engasgos de limpeza, um pouco mais de memória em uso.
+gc.TimeBetweenPurgingPendingKillObjects = 120
+
+; --- Carregamento do mapa enquanto você anda ---------------------------------
+; Tempo máximo (ms) por quadro gasto carregando o mapa em segundo plano.
+; Menor = carregamento mais espalhado, menos travadas (pode demorar um pouco
+; mais para o cenário distante aparecer).
+s.AsyncLoadingTimeLimit = 4
+
+; Quantos componentes registrar/remover por vez ao carregar/descarregar
+; pedaços do mapa. Menor = trabalho dividido em mais quadros.
+s.LevelStreamingComponentsRegistrationGranularity = 10
+s.LevelStreamingComponentsUnregistrationGranularity = 5
+
+; Tempo máximo (ms) por quadro gasto removendo componentes do mapa.
+s.UnregisterComponentsTimeLimit = 1
+
+; --- Texturas -----------------------------------------------------------------
+; Impede que o pool de texturas passe da memória da placa de vídeo.
+r.Streaming.LimitPoolSizeToVRAM = 1

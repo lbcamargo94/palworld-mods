@@ -1,0 +1,86 @@
+; ==============================================================================
+; Bigger Storage - config.txt - v0.3.2
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+;
+; Cada linha "Id = slots" define quantos slots aquele tipo de objeto terá.
+; Para deixar um tipo com o valor normal do jogo, apague a linha ou comente
+; com ;. Valores menores que o padrão do jogo são ignorados (nunca reduz).
+;
+; IMPORTANTE: vale para baús construídos DEPOIS de instalar o mod. Um baú que
+; já existia guarda o tamanho no save - desmonte e construa de novo.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+
+; ------------------------------------------------------------------------------
+; Inventário do jogador                     (padrão no seu save)
+; ------------------------------------------------------------------------------
+; AINDA NÃO FUNCIONA: o comando SetInventorySize do jogo não tem efeito na
+; versão final. Valor guardado para uma próxima versão.
+InventorySlots     = 96    ;                                    (48)
+
+
+; ------------------------------------------------------------------------------
+; Baús principais                           (padrão do jogo)
+; ------------------------------------------------------------------------------
+ItemChest          = 20    ; Baú de Madeira                     (10)
+ItemChest_02       = 48    ; Baú de Metal                       (24)
+ItemChest_03       = 80    ; Baú de Metal Refinado              (40)
+ItemChest_04       = 108   ; Baú de Civilização Avançada        (54)
+Refrigerator       = 50    ; Refrigerador                       (25)
+
+; Baú da Guilda                                                  (54)
+GuildChestSlots    = 108
+
+
+; ------------------------------------------------------------------------------
+; Caixas, prateleiras e armários
+; ------------------------------------------------------------------------------
+Box_Wood           = 20    ; Caixa de Madeira                   (10)
+Box01_Iron         = 20    ; Contêiner Pequeno                  (10)
+Box02_Iron         = 20    ; Contêiner com Pano                 (10)
+CoolerBox          = 20    ; Caixa Térmica                      (10)
+Shelf_Wood         = 20    ; Prateleira de Madeira              (10)
+Shelf_Cask_Wood    = 30    ; Barril com Prateleira de Madeira   (15)
+Shelf_Hang01_Wood  = 4     ; Prateleira de Parede de Madeira    (2)
+Shelf01_Iron       = 30    ; Prateleira Metálica                (15)
+Shelf02_Iron       = 30    ; Prateleira Metálica Horizontal     (15)
+Shelf03_Iron       = 40    ; Armário Laranja                    (20)
+Shelf04_Iron       = 40    ; Armário                            (20)
+Shelf01_Wall_Iron  = 6     ; Prateleira de Parede de Ferro      (3)
+Shelf01_Stone      = 20    ; Estante Antiga                     (10)
+Shelf02_Stone      = 40    ; Guarda-Roupa Antigo                (20)
+Shelf03_Stone      = 20    ; Armário Antigo                     (10)
+Shelf04_Stone      = 14    ; Mesa de Cabeceira Antiga           (7)
+Shelf05_Stone      = 24    ; Cômoda Antiga                      (12)
+Shelf06_Stone      = 30    ; Cômoda Larga e Baixa Antiga        (15)
+Shelf07_Stone      = 30    ; Cômoda Grande Antiga               (15)
+Shelf01_Wall_Stone = 6     ; Cômoda de Parede Antiga            (3)
+
+
+; ------------------------------------------------------------------------------
+; Caixas dos Pals
+; ------------------------------------------------------------------------------
+PalFoodBox         = 12    ; Ração                              (6)
+CoolerPalFoodBox   = 60    ; Caixa de Ração Refrigerada         (30)
+PalMedicineBox     = 12    ; Armário de Remédios                (6)
+
+
+; ------------------------------------------------------------------------------
+; Avançado
+; ------------------------------------------------------------------------------
+; Mostra " (usados/total)" no título do baú e do inventário.
+ShowSlotCounter = true
+
+; Monitor de travadas: grava em hitches.txt o horário de cada frame que
+; demorou mais que HitchThresholdMs. Só para diagnóstico - desligue depois.
+HitchMonitor = false
+HitchThresholdMs = 120
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

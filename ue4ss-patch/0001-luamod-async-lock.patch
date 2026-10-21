@@ -1,0 +1,15 @@
+diff --git a/UE4SS/src/Mod/LuaMod.cpp b/UE4SS/src/Mod/LuaMod.cpp
+index e8f29128..b6f3d1f8 100644
+--- a/UE4SS/src/Mod/LuaMod.cpp
++++ b/UE4SS/src/Mod/LuaMod.cpp
+@@ -7251,6 +7251,10 @@ Overloads:
+                                                    if (duration_since_creation)
+                                                    {
+                                                        bool result = true;
++                                                       // async_lua and hook_lua are threads of the same lua_State; the game
++                                                       // thread runs hook_lua under m_thread_actions_mutex, so the async
++                                                       // thread must hold it too or both corrupt the shared Lua state.
++                                                       std::lock_guard<std::recursive_mutex> lua_guard{LuaMod::m_thread_actions_mutex};
+                                                        try
+                                                        {
+                                                            async_lua()->registry().get_function_ref(action.lua_action_function_ref);

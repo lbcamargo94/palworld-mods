@@ -1,0 +1,8 @@
+{
+  "Name": "Fast Breeding",
+  "Author": "lbcamargo94",
+  "Version": "1.2.0",
+  "Description": "Reduz o tempo da fazenda de acasalamento para 1 ovo por minuto (configurável de 0,5 a 60 minutos). Não altera receitas nem o consumo de bolo. Sem substituir arquivos do jogo.",
+  "GameName": "Palworld",
+  "Id": "FastBreeding"
+}

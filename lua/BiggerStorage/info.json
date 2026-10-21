@@ -1,0 +1,8 @@
+{
+  "Name": "Bigger Storage",
+  "Author": "lbcamargo94",
+  "Version": "0.3.2",
+  "Description": "Aumenta os slots dos baús, caixas e armários da base e mostra usados/total no título do baú e do inventário.",
+  "GameName": "Palworld",
+  "Id": "BiggerStorage"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "Pal Performance",
+  "Author": "lbcamargo94",
+  "Version": "0.1.0",
+  "Description": "Aplica cvars do Unreal que reduzem engasgos de carregamento do mapa e de limpeza de memória (valores no config.txt).",
+  "GameName": "Palworld",
+  "Id": "PalPerformance"
+}

@@ -1,0 +1,32 @@
+; ==============================================================================
+; Pal Spawn Groups - config.txt - v0.1.1
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; As mudanças valem na próxima vez que o jogo for aberto.
+; ==============================================================================
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Quantos grupos extras cada spawner comum cria quando os Pals dele surgem
+; (0 a 3). 1 = o dobro de grupos na área. O grupo extra é sorteado da lista
+; do próprio spawner (mesma região, respeitando horário e clima).
+; Chefes, dungeons, missões e Pals raros nunca recebem grupos extras.
+ExtraGroups = 1
+
+; Chance (0 a 100%) de cada grupo extra aparecer.
+ExtraChance = 100
+
+; Máximo de Pals por grupo (vale para os grupos comuns originais e os extras).
+; 3 = grupos de 1 a 3 Pals. 0 = não mexer no tamanho dos grupos.
+MaxGroupSize = 3
+
+; Distância (em cm) entre o ponto original e o grupo extra. 1500 = 15 m.
+OffsetMin = 1500
+OffsetMax = 3500
+
+; Tentar sortear um grupo diferente do original.
+AvoidSameGroup = true
+
+; Logs detalhados no UE4SS.log (apenas para debug).
+VerboseLogging = false

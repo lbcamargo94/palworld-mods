@@ -1,0 +1,229 @@
+// ======================================================
+// MOD: Implant Shop - implantes de passivas únicas
+// VERSION: 0.6.1
+// AUTHOR: lbcamargo94
+// ======================================================
+{
+	"DT_OperatingTablePassiveSkillDataTable": {
+		"PAL_ALLAttack_up3": {
+			"PassiveSkill": "PAL_ALLAttack_up3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_PAL_ALLAttack_up3"
+		},
+		"Deffence_up3": {
+			"PassiveSkill": "Deffence_up3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Deffence_up3"
+		},
+		"MoveSpeed_up_3": {
+			"PassiveSkill": "MoveSpeed_up_3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_MoveSpeed_up_3"
+		},
+		"SwimSpeed_up_3": {
+			"PassiveSkill": "SwimSpeed_up_3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_SwimSpeed_up_3"
+		},
+		"Stamina_Up_3": {
+			"PassiveSkill": "Stamina_Up_3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Stamina_Up_3"
+		},
+		"PAL_FullStomach_Down_3": {
+			"PassiveSkill": "PAL_FullStomach_Down_3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_PAL_FullStomach_Down_3"
+		},
+		"PAL_Sanity_Down_3": {
+			"PassiveSkill": "PAL_Sanity_Down_3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_PAL_Sanity_Down_3"
+		},
+		"CraftSpeed_up3": {
+			"PassiveSkill": "CraftSpeed_up3",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_CraftSpeed_up3"
+		},
+		"Vampire": {
+			"PassiveSkill": "Vampire",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Vampire"
+		},
+		"WorldTree_ATK": {
+			"PassiveSkill": "WorldTree_ATK",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_ATK"
+		},
+		"WorldTree_DEF": {
+			"PassiveSkill": "WorldTree_DEF",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_DEF"
+		},
+		"WorldTree_ATK_DEF": {
+			"PassiveSkill": "WorldTree_ATK_DEF",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_ATK_DEF"
+		},
+		"WorldTree_MoveSpeed": {
+			"PassiveSkill": "WorldTree_MoveSpeed",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_MoveSpeed"
+		},
+		"WorldTree_FullStomach": {
+			"PassiveSkill": "WorldTree_FullStomach",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_FullStomach"
+		},
+		"WorldTree_Sanity": {
+			"PassiveSkill": "WorldTree_Sanity",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_Sanity"
+		},
+		"WorldTree_CraftSpeed": {
+			"PassiveSkill": "WorldTree_CraftSpeed",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_CraftSpeed"
+		},
+		"MutationPal_Babysitter": {
+			"PassiveSkill": "MutationPal_Babysitter",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Babysitter"
+		},
+		"MutationPal_Mutant": {
+			"PassiveSkill": "MutationPal_Mutant",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Mutant"
+		},
+		"MutationPal_Immortal": {
+			"PassiveSkill": "MutationPal_Immortal",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Immortal"
+		},
+		"MutationPal_ExplosionResist": {
+			"PassiveSkill": "MutationPal_ExplosionResist",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_ExplosionResist"
+		},
+		"RideJumpCount_Increase2": {
+			"PassiveSkill": "RideJumpCount_Increase2",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_RideJumpCount_Increase2"
+		},
+		"Legend": {
+			"PassiveSkill": "Legend",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Legend"
+		},
+		"Rare": {
+			"PassiveSkill": "Rare",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Rare"
+		},
+		"Witch": {
+			"PassiveSkill": "Witch",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Witch"
+		},
+		"EternalFlame": {
+			"PassiveSkill": "EternalFlame",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_EternalFlame"
+		},
+		"Invader": {
+			"PassiveSkill": "Invader",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Invader"
+		},
+		"Nushi": {
+			"PassiveSkill": "Nushi",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Nushi"
+		},
+		"Salvation": {
+			"PassiveSkill": "Salvation",
+			"Price": 25000,
+			"RequireItemId": "PalPassiveSkillChange_Consumable_Salvation"
+		},
+		"ElementBoost_Earth_2_PAL": {
+			"PassiveSkill": "ElementBoost_Earth_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Earth_2_PAL"
+		},
+		"ElementBoost_Fire_2_PAL": {
+			"PassiveSkill": "ElementBoost_Fire_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Fire_2_PAL"
+		},
+		"ElementBoost_Ice_2_PAL": {
+			"PassiveSkill": "ElementBoost_Ice_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Ice_2_PAL"
+		},
+		"ElementBoost_Thunder_2_PAL": {
+			"PassiveSkill": "ElementBoost_Thunder_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Thunder_2_PAL"
+		},
+		"ElementBoost_Aqua_2_PAL": {
+			"PassiveSkill": "ElementBoost_Aqua_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Aqua_2_PAL"
+		},
+		"ElementBoost_Leaf_2_PAL": {
+			"PassiveSkill": "ElementBoost_Leaf_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Leaf_2_PAL"
+		},
+		"ElementBoost_Dark_2_PAL": {
+			"PassiveSkill": "ElementBoost_Dark_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Dark_2_PAL"
+		},
+		"ElementBoost_Dragon_2_PAL": {
+			"PassiveSkill": "ElementBoost_Dragon_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Dragon_2_PAL"
+		},
+		"ElementBoost_Normal_2_PAL": {
+			"PassiveSkill": "ElementBoost_Normal_2_PAL",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_ElementBoost_Normal_2_PAL"
+		},
+		"MiniNushi": {
+			"PassiveSkill": "MiniNushi",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_MiniNushi"
+		},
+		"CoolTimeReduction_Up_3": {
+			"PassiveSkill": "CoolTimeReduction_Up_3",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_CoolTimeReduction_Up_3"
+		},
+		"RideJumpCount_Increase1": {
+			"PassiveSkill": "RideJumpCount_Increase1",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_RideJumpCount_Increase1"
+		},
+		"SelfDeathAddItemDrop_up_3": {
+			"PassiveSkill": "SelfDeathAddItemDrop_up_3",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_SelfDeathAddItemDrop_up_3"
+		},
+		"SelfDeathAddItemDrop_up_2": {
+			"PassiveSkill": "SelfDeathAddItemDrop_up_2",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_SelfDeathAddItemDrop_up_2"
+		},
+		"WorkSuitabilityAddRank_MonsterFarm_2": {
+			"PassiveSkill": "WorkSuitabilityAddRank_MonsterFarm_2",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_WorkSuitabilityAddRank_MonsterFarm_2"
+		},
+		"WorkSuitabilityAddRank_MonsterFarm_1": {
+			"PassiveSkill": "WorkSuitabilityAddRank_MonsterFarm_1",
+			"Price": 12500,
+			"RequireItemId": "PalPassiveSkillChange_WorkSuitabilityAddRank_MonsterFarm_1"
+		}
+	}
+}

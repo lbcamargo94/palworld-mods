@@ -1,0 +1,20 @@
+; ==============================================================================
+; Bigger Magazines - config.txt - v0.2.0
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Quantas vezes o pente original de cada arma.
+; 3 = o triplo (ex.: pente de 30 vira 90). Faixa: 2 a 10. Aceita decimais (2.5).
+MagazineMultiplier = 3
+
+; Intervalo (em ms) entre as verificações que aplicam o tamanho do pente.
+ScanIntervalMs = 15000
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

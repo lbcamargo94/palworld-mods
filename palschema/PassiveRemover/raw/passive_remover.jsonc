@@ -1,0 +1,29 @@
+// ======================================================
+// MOD: Passive Remover (parte PalSchema)
+// AUTHOR: lbcamargo94
+// REQUIREMENTS: PalSchema, UE4SS + mod Lua PassiveRemover
+// ======================================================
+// Cria a característica "Remover característica" (PR_NoPassive): sem efeito,
+// nunca sorteada (LotteryWeight 0), e a oferece na mesa de cirurgia sem
+// implante. Ao aplicá-la num slot, o mod Lua PassiveRemover a remove logo em
+// seguida, deixando o slot vazio.
+//
+// Para mudar o preço, edite "Price" abaixo (ouro) e reinicie o jogo.
+// ======================================================
+{
+	"DT_PassiveSkill_Main": {
+		"PR_NoPassive": {
+			"Rank": 1,
+			"LotteryWeight": 0,
+			"AddPal": true,
+			"InvokeAlways": true
+		}
+	},
+	"DT_OperatingTablePassiveSkillDataTable": {
+		"PR_NoPassive": {
+			"PassiveSkill": "PR_NoPassive",
+			"Price": 1000,
+			"RequireItemId": "None"
+		}
+	}
+}

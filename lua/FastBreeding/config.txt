@@ -1,0 +1,24 @@
+; ==============================================================================
+; Fast Breeding - config.txt - v1.2.0
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Tempo (em minutos) para a fazenda de acasalamento gerar 1 ovo.
+; Mínimo: 0.5 (30 segundos) - Máximo: 60 (1 hora). Vanilla: 5.
+; Aceita ponto ou vírgula decimal (0.5 ou 0,5).
+; Valores fora do intervalo são ajustados para o limite mais próximo.
+; Cada ovo continua consumindo 1 bolo, então tempos menores gastam bolo mais rápido.
+BreedMinutes = 1
+
+; Intervalo (em ms) entre as verificações que aplicam o tempo às fazendas.
+; Fazendas recém-construídas recebem o novo tempo na próxima verificação.
+ScanIntervalMs = 15000
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

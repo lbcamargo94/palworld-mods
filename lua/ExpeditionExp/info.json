@@ -1,0 +1,8 @@
+{
+  "Name": "Expedition Exp",
+  "Author": "lbcamargo94",
+  "Version": "0.4.2",
+  "Description": "Ajustes nas expedições: tempo configurável (% do normal ou fixo igual para todas), XP para os Pals que voltam (% do próximo nível) e boost nas recompensas (10% a 100%).",
+  "GameName": "Palworld",
+  "Id": "ExpeditionExp"
+}

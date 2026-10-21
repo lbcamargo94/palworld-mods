@@ -1,0 +1,87 @@
+; ==============================================================================
+; Better Fishing — config.txt — v1.4.0
+; ==============================================================================
+; Edite os valores abaixo para personalizar a experiência de pesca.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+
+; ------------------------------------------------------------------------------
+; CAPTURA INSTANTÂNEA
+; ------------------------------------------------------------------------------
+; Pula o mini-jogo de ferragem — o peixe é capturado automaticamente.
+; false = mini-jogo normal (vanilla)
+; true  = captura automática sem mini-jogo
+InstantCapture = true
+
+; Ferrar automaticamente quando o peixe morder.
+; true  = tudo automático (lance a cana e aguarde).
+; false = você ainda pressiona F na mordida, mas o mini-jogo é automático.
+AutoStrike = true
+
+; Delay (em ms) antes de forçar o sucesso do mini-jogo.
+; 0   = risco de rejeição pelo servidor anti-triche.
+; 200 = padrão recomendado (rápido e confiável).
+; 500-1000 = tente se em servidor dedicado as capturas não validarem.
+CatchSuccessDelayMs = 200
+
+
+; ------------------------------------------------------------------------------
+; MULTIPLICADORES
+; 1.0 = sem mudança (vanilla)
+; < 1.0 = mais fácil / mais rápido
+; > 1.0 = mais difícil / mais lento
+; Limites: 0.05 a 10. Os valores são sempre calculados sobre o original do
+; jogo, então reaplicar (ou recarregar) nunca acumula o efeito.
+; ------------------------------------------------------------------------------
+
+; Tempo de espera pela mordida do peixe (SinkWaitMinTime/SinkWaitMaxTime).
+; 0.25 = o peixe morde em 1/4 do tempo vanilla.
+BiteTimeMultiplier = 0.25
+
+; Tempo de respawn dos pontos de pesca no mapa (FishShadowRespawnTime).
+; 0.5 = spots voltam em metade do tempo.
+; Aplicado só se a propriedade estiver acessível — confira o log.
+FishingSpotRespawnMultiplier = 0.5
+
+; Tempo fixo (segundos) para qualquer spot de pesca voltar. 0 = usar o
+; multiplicador acima. Ex.: 10 = todo spot volta em 10 s.
+FishingSpotRespawnSeconds = 10
+
+; --- Ainda não implementados (aguardando nomes do diagnóstico no log) ---
+
+; Chance do peixe escapar durante o mini-jogo.
+EscapeChanceMultiplier = 1.0
+
+; Resistência do peixe (velocidade que o gauge de batalha aumenta/diminui).
+FishResistanceMultiplier = 1.0
+
+; Chance de consumir a isca a cada captura.
+BaitConsumptionChance = 1.0
+
+
+; ------------------------------------------------------------------------------
+; MODO HARDCORE
+; Desativa InstantCapture e AutoStrike, e torna a pesca mais difícil.
+; Ignora os valores de BiteTimeMultiplier e EscapeChanceMultiplier se 1.0
+; (aplica valores internos de dificuldade).
+; ------------------------------------------------------------------------------
+HardcoreMode = false
+
+
+; ------------------------------------------------------------------------------
+; INTERFACE
+; ------------------------------------------------------------------------------
+; Desativado desde a v1.3.1 (suspeito de crash): a mensagem vai só para o log.
+NotifyChatEnabled = true
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false
+
+; Diagnóstico: desde a v1.3.0 o mod grava sozinho no log, uma vez por classe,
+; as propriedades de pesca encontradas (linhas "Diagnóstico ..."). Não há opção
+; para ativar.

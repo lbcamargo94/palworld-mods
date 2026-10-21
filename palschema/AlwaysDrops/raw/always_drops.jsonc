@@ -1,0 +1,25 @@
+// ======================================================
+// MOD: Always Drops
+// VERSION: 0.1.0
+// AUTHOR: lbcamargo94
+// REQUIREMENTS: PalSchema, UE4SS
+// Todos os itens da tabela de drops dos Pals (DT_PalDropItem) com chance de
+// 100%: ao derrotar ou capturar um Pal, todos os itens possíveis caem.
+// Slots sem item (None) não são afetados na prática.
+// ======================================================
+{
+	"DT_PalDropItem": {
+		"*": {
+			"Rate1": 100.0,
+			"Rate2": 100.0,
+			"Rate3": 100.0,
+			"Rate4": 100.0,
+			"Rate5": 100.0,
+			"Rate6": 100.0,
+			"Rate7": 100.0,
+			"Rate8": 100.0,
+			"Rate9": 100.0,
+			"Rate10": 100.0
+		}
+	}
+}

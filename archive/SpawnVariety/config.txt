@@ -1,0 +1,21 @@
+; ==============================================================================
+; Spawn Variety - config.txt - v0.2.1
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; As mudanças valem na próxima vez que o jogo for aberto.
+; ==============================================================================
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Quantas espécies extras (da mesma região) cada grupo comum ganha. 0 a 2.
+; Ex.: 1 = onde nasciam só Lamballs, passam a nascer Lamballs + 1 outra espécie.
+; Chefes (de campo e de dungeon) nunca são alterados.
+ExtraSpeciesPerGroup = 1
+
+; Quantos Pals de cada espécie extra (sorteado entre o mínimo e o máximo).
+ExtraNumMin = 1
+ExtraNumMax = 2
+
+; Incluir os inimigos comuns das dungeons (os chefes de dungeon nunca mudam).
+IncludeDungeons = true

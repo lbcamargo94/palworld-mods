@@ -1,0 +1,8 @@
+{
+  "Name": "Bigger Pal Box",
+  "Author": "lbcamargo94",
+  "Version": "0.1.0",
+  "Description": "Aumenta o número de páginas da caixa de Pals (padrão: o dobro).",
+  "GameName": "Palworld",
+  "Id": "BiggerPalBox"
+}

@@ -1,0 +1,63 @@
+; ==============================================================================
+; Fast Respawn - config.txt - v0.5.5
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+
+; ------------------------------------------------------------------------------
+; Alcance de surgimento
+; ------------------------------------------------------------------------------
+; Quanto a MAIS de alcance os Pals têm para surgir ao redor do jogador.
+; 100 = o dobro (padrão do jogo: 80 a 200 m, conforme o tamanho do Pal).
+; A distância em que eles somem aumenta junto, senão ficariam aparecendo e
+; sumindo. Faixa: 0 a 300. Valores altos podem pesar no desempenho.
+SpawnRangePercent = 0
+
+
+; ------------------------------------------------------------------------------
+; Tempo de reaparecimento (% do tempo original: 50 = metade, 100 = normal)
+; ------------------------------------------------------------------------------
+; Chefe de dungeon (padrão do jogo: 60 minutos). Faixa: 5 a 100.
+; Vale para chefes derrotados depois de abrir o jogo com o mod.
+DungeonBossRespawnPercent = 50
+
+; Chefes de campo (padrão do jogo: 60 minutos nos que têm tempo definido na
+; tabela de spawners). Faixa: 5 a 100.
+FieldBossRespawnPercent = 50
+
+; Tempos FIXOS em minutos - quando maiores que 0, substituem as porcentagens
+; acima. Faixa: 0 a 600. 0 = usar a porcentagem.
+; Chefes de campo: em teste para os que usam o tempo interno do jogo (o log
+; "Chefe de campo voltou ... após X min" mostra o tempo real).
+DungeonBossRespawnMinutes = 30
+FieldBossRespawnMinutes = 30
+
+; Pals normais: o jogo não tem um tempo de reaparecimento para eles - voltam
+; quando você se afasta e retorna à área. Opção reservada, sem efeito.
+WildRespawnPercent = 50
+
+
+; ------------------------------------------------------------------------------
+; Cronômetro no mapa
+; ------------------------------------------------------------------------------
+; Mostra embaixo da carinha de cada CHEFE DE CAMPO morto quanto falta para ele
+; voltar (ex.: ~29:41). Chefes de dungeon já têm o contador do próprio jogo.
+; O tempo é ESTIMADO ("~"): conta a partir de quando o mod viu o chefe morto.
+; Em teste - se o jogo crashar ao abrir o mapa, coloque false aqui.
+ShowBossTimerOnMap = true
+
+
+; ------------------------------------------------------------------------------
+; Avançado
+; ------------------------------------------------------------------------------
+; Intervalo (em ms) entre as reaplicações nos objetos já guardados.
+ScanIntervalMs = 15000
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

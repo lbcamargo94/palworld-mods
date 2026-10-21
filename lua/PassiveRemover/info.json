@@ -1,0 +1,8 @@
+{
+  "Name": "Passive Remover",
+  "Author": "lbcamargo94",
+  "Version": "0.2.1",
+  "Description": "Adiciona a opção Remover característica na mesa de cirurgia (requer a parte PalSchema).",
+  "GameName": "Palworld",
+  "Id": "PassiveRemover"
+}

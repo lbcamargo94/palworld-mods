@@ -1,0 +1,8 @@
+{
+  "Name": "Better Fishing",
+  "Author": "lbcamargo94",
+  "Version": "1.4.0",
+  "Description": "Melhora a experiência de pesca com multiplicadores configuráveis: tempo de mordida, resistência do peixe, chance de escapar, respawn de pontos e captura instantânea. Sem substituir arquivos do jogo.",
+  "GameName": "Palworld",
+  "Id": "BetterFishing"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "Bigger Magazines",
+  "Author": "lbcamargo94",
+  "Version": "0.2.0",
+  "Description": "Multiplica a capacidade do pente das armas (2x a 10x; padrão 3x). Sem substituir arquivos do jogo.",
+  "GameName": "Palworld",
+  "Id": "BiggerMagazines"
+}

@@ -1,0 +1,22 @@
+// ======================================================
+// MOD: Essential Coins
+// VERSION: 0.3.0
+// AUTHOR: lbcamargo94
+// REQUIREMENTS: PalSchema, UE4SS
+// Moeda de cachorro e pergaminho de recompensa na aba de itens importantes, sem peso.
+// v0.3.0: a moeda de ouro saiu (os Pals do rancho precisam levá-la aos baús).
+// Mesmo método do "Keys Are Key Items" (MelwenMods): só o TypeA muda para
+// Essential; o TypeB original fica, para as lojas continuarem aceitando.
+// ======================================================
+{
+	"DogCoin": {
+		"TypeA": "EPalItemTypeA::Essential",
+		"TypeB": "EPalItemTypeB::MaterialJewelry",
+		"Weight": 0.0
+	},
+	// Pergaminho de recompensa (moeda da loja de recompensas). Só o TypeA muda.
+	"BountyProof_1": {
+		"TypeA": "EPalItemTypeA::Essential",
+		"Weight": 0.0
+	}
+}

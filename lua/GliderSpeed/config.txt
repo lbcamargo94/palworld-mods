@@ -1,0 +1,21 @@
+; ==============================================================================
+; Glider Speed - config.txt - v0.2.1
+; ==============================================================================
+; Edite os valores abaixo para personalizar o mod.
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; ==============================================================================
+
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Quanto a MAIS de velocidade os planadores ganham (itens e Pals planadores).
+; 50 = +50% (ex.: planador bom 650 -> 975). 0 = velocidade normal.
+; Faixa: 0 a 200. Aceita decimais (25.5).
+GliderSpeedPercent = 50
+
+; Intervalo (em ms) entre as conferências da velocidade do planador.
+CheckIntervalMs = 200
+
+; Logs detalhados no console UE4SS (apenas para debug, manter false em uso normal).
+VerboseLogging = false

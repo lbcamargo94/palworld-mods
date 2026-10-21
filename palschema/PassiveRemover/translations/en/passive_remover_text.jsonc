@@ -1,0 +1,6 @@
+// Passive Remover - passive name in English.
+{
+	"DT_SkillNameText": {
+		"PASSIVE_PR_NoPassive": "Remove Passive"
+	}
+}

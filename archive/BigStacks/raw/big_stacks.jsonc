@@ -1,0 +1,22 @@
+// ======================================================
+// MOD: Big Stacks
+// VERSION: 0.1.0
+// AUTHOR: lbcamargo94
+// REQUIREMENTS: PalSchema, UE4SS
+// Pilhas de itens até 999.999. Só altera itens que já empilham
+// (MaxStackCount > 1); armas e equipamentos continuam com 1.
+// ======================================================
+{
+	"DT_ItemDataTable": {
+		"*": {
+			"$Filters": [
+				{
+					"FieldName": "MaxStackCount",
+					"Operation": "GreaterThan",
+					"Value": 1
+				}
+			],
+			"MaxStackCount": 999999
+		}
+	}
+}

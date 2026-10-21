@@ -1,0 +1,23 @@
+; ==============================================================================
+; Pal Transport Boost - config.txt - v0.1.0
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; As mudanças valem na próxima vez que o jogo for aberto.
+; ==============================================================================
+
+; Ativar ou desativar o aumento do transporte.
+Enabled = true
+
+; Quantas vezes mais pilhas de itens um Pal transportador leva por viagem
+; (1 a 20). 3 = o triplo do normal.
+StackMultiplier = 3
+
+; Teto de pilhas por viagem (1 a 100).
+MaxStacks = 20
+
+; Grava data_dump.txt com as tabelas da mesa de cirurgia e das lojas
+; (uma vez por sessão, ao entrar no mundo).
+DumpData = true
+
+; Logs detalhados no UE4SS.log (apenas para debug).
+VerboseLogging = false

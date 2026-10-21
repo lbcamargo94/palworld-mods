@@ -1,0 +1,8 @@
+{
+  "Name": "Fast Respawn",
+  "Author": "lbcamargo94",
+  "Version": "0.5.5",
+  "Description": "Reduz o tempo de reaparecimento dos chefes, aumenta o alcance de surgimento dos Pals e mostra o cronômetro dos chefes no mapa (valores no config.txt).",
+  "GameName": "Palworld",
+  "Id": "FastRespawn"
+}

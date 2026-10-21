@@ -1,0 +1,35 @@
+; ==============================================================================
+; Spawn Density - config.txt - v0.2.1
+; ==============================================================================
+; Linhas começando com ; ou # são comentários e são ignoradas.
+; As mudanças valem na próxima vez que o jogo for aberto.
+; ==============================================================================
+
+; Ativar ou desativar todo o mod.
+Enabled = true
+
+; Quantas cópias de cada spawner de Pals comuns criar por perto (0 a 3).
+; 1 = o dobro de grupos na área. Cada cópia sorteia o próprio grupo da mesma
+; região. Chefes e dungeons nunca são copiados.
+; Valores altos aumentam bastante a quantidade de Pals (e o uso do processador).
+ExtraSpawners = 1
+
+; Distância (em cm) entre o spawner original e as cópias. 1500 = 15 m.
+CloneDistanceMin = 1500
+CloneDistanceMax = 3500
+
+; As cópias só existem perto de você: são criadas para spawners a até
+; ActivateDistance e removidas além de DeactivateDistance (em cm).
+; 35000 = 350 m (um pouco além do alcance de surgimento dos Pals).
+ActivateDistance = 35000
+DeactivateDistance = 50000
+
+; Máximo de Pals de cada espécie num grupo (vale para todos os spawners
+; comuns). 3 = grupos de 1 a 3. 0 = não mexer no tamanho dos grupos.
+MaxGroupSize = 3
+
+; Logs detalhados no console UE4SS (apenas para debug).
+VerboseLogging = false
+
+; Migalhas no log antes de cada operação arriscada (diagnóstico de crash).
+TraceLogging = true
