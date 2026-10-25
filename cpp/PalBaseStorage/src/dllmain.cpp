@@ -17,6 +17,7 @@
 #include <Windows.h>
 
 #include <algorithm>
+#include <atomic>
 #include <cstring>
 #include <filesystem>
 #include <format>
@@ -28,6 +29,7 @@
 #include <vector>
 
 #include <DynamicOutput/DynamicOutput.hpp>
+#include <Helpers/String.hpp>
 #include <Mod/CppUserModBase.hpp>
 #include <Unreal/CoreUObject/UObject/Class.hpp>
 #include <Unreal/CoreUObject/UObject/UnrealType.hpp>
@@ -45,7 +47,7 @@ using namespace RC::Unreal;
 
 namespace
 {
-    constexpr auto MOD_VERSION = STR("0.5.0");
+    constexpr auto MOD_VERSION = STR("0.7.0");
     constexpr uint8 RESPONSE_ENABLE = 0;
     constexpr uint8 RESPONSE_NOT_ENOUGH_ITEMS = 4;
 
@@ -58,6 +60,7 @@ namespace
     } g_cfg;
 
     std::filesystem::path g_modDir;
+    double g_clock = 0.0;
 
     auto Trim(std::string s) -> std::string
     {
@@ -694,7 +697,6 @@ namespace
         Log(std::format(STR("{} gancho(s) da bancada registrados."), count));
     }
 
-    double g_clock = 0.0;
     double g_nextScan = 5.0;
 
     auto OnTick(float deltaSeconds) -> void

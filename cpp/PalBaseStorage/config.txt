@@ -1,9 +1,9 @@
 ; ==============================================================================
-; Pal Base Storage - config.txt - v0.4.1
+; Pal Base Storage - config.txt - v0.7.0
 ; ==============================================================================
-; Fabricar usando os baús das bases da guilda. Ao apertar 'Começar' numa
-; bancada, o que faltar no inventário é trazido dos baús. Receitas de itens
-; que você já possui (itens importantes, ex.: selas) ficam com fundo verde.
+; Fabricar e construir usando os baús das bases da guilda. Ao apertar
+; 'Começar' numa bancada ou ao construir, o que faltar no inventário é trazido
+; dos baús. Receitas de itens que você já possui (ex.: selas) ficam em verde.
 
 Enabled = true
 
@@ -14,4 +14,4 @@ IncludeGuildChest = true
 ScanSeconds = 15
 
 ; Logs detalhados no UE4SS.log (apenas para debug).
-VerboseLogging = true
+VerboseLogging = false
